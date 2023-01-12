@@ -1,0 +1,133 @@
+ @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Inter:wght@400;700;800&display=swap');
+
+ body{
+    font-family:'Inter';
+ }
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding: 10px;
+}
+
+.links{
+    display: flex;
+    justify-content:space-between;
+    width: 30%;
+
+}
+.links a {
+    text-decoration: none;
+    color: black;
+}
+.container{
+    width: 98vw;
+    height:98vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.two{
+    background-color:hsl(240, 100%, 5%);
+    padding: 10px;
+    grid-area: two;
+}
+.one{
+    grid-area: one;
+}
+.one img{
+    width: 100%;
+    height:100%
+}
+
+.two h1{
+color: hsl(35, 77%, 62%);
+font-weight: bold;
+}
+.two p{
+    color:hsl(233, 8%, 79%);
+}
+.two-one{
+
+}
+.two-one h3{
+    color:white;
+    font-weight: bold;
+}
+.two-two h3{
+color: hsl(35, 77%, 62%);
+font-weight: bold;
+}
+
+.two-two{
+
+}
+.three{
+    grid-area: three;
+    justify-self:center;
+}
+.three h1{
+    font-size: 40px;
+}
+
+.two-three{
+    color: white;
+}
+
+.four{
+    grid-area: four;
+}
+
+.four button{
+      background-color:hsl(240, 100%, 5%);
+      color:white;
+      padding:5px 18px;
+}
+
+.five{
+    display: flex;
+    gap:10px;
+    grid-area: five;
+}
+.five img{
+    width: 100%;
+    height:100%
+}
+.six{
+    display: flex;
+    gap:10px;
+    grid-area: six;
+   
+}
+.six img{
+    width: 100%;
+    height:100%
+}
+
+.seven{
+    display: flex;
+    gap:10px;
+    grid-area: seven;
+}
+.seven img{
+    width: 100%;
+    height:100%
+}
+.body{
+    margin-top: 30px;
+     width: 80%;
+    display: grid;
+    grid-auto-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr) ;
+    grid-template-areas: " one one two"
+    " one one two"
+    "three four two"
+    "five six seven";
+    gap: 5px;
+    height: 85%;
+
+}
+.text p{
+    color:hsl(233, 8%, 79%);
+    font-weight: bold;
+}
